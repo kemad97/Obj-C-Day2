@@ -6,11 +6,13 @@
 //
 
 #import <Foundation/Foundation.h>
+#import "Calculator.h"
 
 int main(int argc, const char * argv[]) {
     @autoreleasepool {
         // insert code here...
-        NSLog(@"Hello, World!");
-    }
+        Calculator *calc = [[Calculator alloc] init];
+               [calc calculate];
+           }    
     return 0;
 }
