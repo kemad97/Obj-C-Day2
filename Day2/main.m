@@ -7,6 +7,7 @@
 
 #import <Foundation/Foundation.h>
 #import "Rectangle.h"
+#import "Square.h"
 
 int main(int argc, const char * argv[]) {
     @autoreleasepool {
@@ -16,7 +17,14 @@ int main(int argc, const char * argv[]) {
         rect.width = 5;
         rect.height = 10;
         
-        NSLog(@"Area: %d", [rect printArea]);
+        NSLog(@"Rect Area: %d", [rect printArea]);
+        
+        
+        Square *s = [Square new];
+        s.width = 5;
+        
+        NSLog(@"Square Area: %d", [s printArea]);
+
     }
     return 0;
 }
