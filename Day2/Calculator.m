@@ -51,7 +51,7 @@
     
     }
 
-- (void)calculate{
+- (void)run{
     int operation = 0;
     float res = 0.0;
     int ch=0;
@@ -87,7 +87,7 @@
     
     NSLog (@"Res is : %f", res);
         
-        printf(1"\n\n");
+        printf("\n\n");
 
     
     NSLog(@"Choose operation you want:");

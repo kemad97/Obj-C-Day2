@@ -21,7 +21,6 @@ NS_ASSUME_NONNULL_BEGIN
 - (float)multiply;
 - (float)divide;
 - (void)showMenu;
-- (void)calculate;
 - (void)run;
 
 @end
