@@ -7,6 +7,8 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
+		E11853942DAA9532007E2AE0 /* FriendManger.m in Sources */ = {isa = PBXBuildFile; fileRef = E11853932DAA9532007E2AE0 /* FriendManger.m */; };
+		E1415D702DAA8DC0001D6932 /* Friend.m in Sources */ = {isa = PBXBuildFile; fileRef = E1415D6F2DAA8DC0001D6932 /* Friend.m */; };
 		E1DD659E2DAA74BA002E1240 /* main.m in Sources */ = {isa = PBXBuildFile; fileRef = E1DD659D2DAA74BA002E1240 /* main.m */; };
 /* End PBXBuildFile section */
 
@@ -23,6 +25,10 @@
 /* End PBXCopyFilesBuildPhase section */
 
 /* Begin PBXFileReference section */
+		E11853922DAA9532007E2AE0 /* FriendManger.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = FriendManger.h; sourceTree = "<group>"; };
+		E11853932DAA9532007E2AE0 /* FriendManger.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = FriendManger.m; sourceTree = "<group>"; };
+		E1415D6E2DAA8DC0001D6932 /* Friend.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = Friend.h; sourceTree = "<group>"; };
+		E1415D6F2DAA8DC0001D6932 /* Friend.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = Friend.m; sourceTree = "<group>"; };
 		E1DD659A2DAA74BA002E1240 /* Day2 */ = {isa = PBXFileReference; explicitFileType = "compiled.mach-o.executable"; includeInIndex = 0; path = Day2; sourceTree = BUILT_PRODUCTS_DIR; };
 		E1DD659D2DAA74BA002E1240 /* main.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = main.m; sourceTree = "<group>"; };
 /* End PBXFileReference section */
@@ -58,6 +64,10 @@
 			isa = PBXGroup;
 			children = (
 				E1DD659D2DAA74BA002E1240 /* main.m */,
+				E1415D6E2DAA8DC0001D6932 /* Friend.h */,
+				E1415D6F2DAA8DC0001D6932 /* Friend.m */,
+				E11853922DAA9532007E2AE0 /* FriendManger.h */,
+				E11853932DAA9532007E2AE0 /* FriendManger.m */,
 			);
 			path = Day2;
 			sourceTree = "<group>";
@@ -120,6 +130,8 @@
 			buildActionMask = 2147483647;
 			files = (
 				E1DD659E2DAA74BA002E1240 /* main.m in Sources */,
+				E11853942DAA9532007E2AE0 /* FriendManger.m in Sources */,
+				E1415D702DAA8DC0001D6932 /* Friend.m in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
