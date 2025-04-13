@@ -37,5 +37,17 @@
     
 }
 
+-(void)printFriendData :(Friend*)friend{
+    NSLog(@"Friend Data:");
+    NSLog(@"ID: %d", friend.fid);
+    NSLog(@"Name: %@", friend.name);
+    NSLog(@"Age: %d", friend.age);
+    NSLog(@"Phone: %@", friend.phone);
+    NSLog(@"Email: %@", friend.email);
+    NSLog(@"\n\n");
+
+}
+
+
 
 @end

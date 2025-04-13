@@ -9,23 +9,15 @@
 
 @implementation Friend
 
--(instancetype)initFriend: int fid
-    name:(NSString*)name
-age :(int)age
-phone:(NSString *)phone
-email:(NSString *)email{
-    
-if (self = [super init])
-{
-    _fid = fid;
-     _name = name;
-     _age = age;
-     _phone = phone;
-     _email = email;
-}
-    return self;
-}
+-(void) printData{
+    NSLog(@"ID: %d", self.fid);
+    NSLog(@"Name: %@", self.name);
+    NSLog(@"Age: %d", self.age);
+    NSLog(@"Phone: %@", self.phone);
+    NSLog(@"Email: %@", self.email);
+    NSLog(@"\n\n");
 
+}
 
 
 @end

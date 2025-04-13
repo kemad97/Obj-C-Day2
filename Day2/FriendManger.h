@@ -18,6 +18,7 @@ NS_ASSUME_NONNULL_BEGIN
 - (void)addFriend:(Friend *)friend;
 - (void)deleteFriend:(int)friendId;
 - (NSMutableArray *)getAllFriends;
+-(void)printFriendData :(Friend*)friend;
 
 @end
 
