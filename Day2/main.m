@@ -19,13 +19,13 @@ int main(int argc, const char * argv[]) {
         friend1.fid = 1;
         friend1.name = @"Ali";
         friend1.age = 25;
-        friend1.phone = @"1234";
+        friend1.phone = @"1111";
         friend1.email = @"zz@zz.com";
         
         Friend *friend2 = [[Friend alloc]init];
         friend2.fid = 2;
-        friend2.name = @"KK";
-        friend2.age = 30;
+        friend2.name = @"Kerolos";
+        friend2.age = 24;
         friend2.phone = @"77777";
         friend2.email = @"tt@t.com";
         
@@ -43,7 +43,7 @@ int main(int argc, const char * argv[]) {
             
         }
         
-        NSLog(@"After Delete ");
+        NSLog(@"After Deletee....... ");
 
         
         [frManger deleteFriend:1];

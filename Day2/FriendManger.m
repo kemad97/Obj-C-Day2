@@ -21,7 +21,7 @@
     [_frList addObject:friend];
 }
 - (void)deleteFriend:(int)friendId{
-    int arSize = [_frList count];
+    unsigned long arSize = [_frList count];
     for (int i=0; i<arSize; i++ )
     {
         Friend *curr= _frList[i];
